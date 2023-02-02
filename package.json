@@ -5,12 +5,12 @@
   "description": "Video Rendering with Node.js and FFmpeg",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "author": "Casper Kloppenburg",
   "license": "ISC",
   "dependencies": {
-    "canvas": "^2.10.1",
+    "canvas": "^2.11.0",
     "ffmpeg-static": "^5.1.0",
     "fluent-ffmpeg": "^2.1.2"
   },
